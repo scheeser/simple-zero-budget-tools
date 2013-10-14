@@ -105,7 +105,7 @@
                 $newRow.append(createCell(breakdown[index]));
             });
 
-            $newRow.append(createCell('<i class="delete icon-remove"></i>')).insertBefore('#totalRow');
+            $newRow.append(createCell('<i class="delete glyphicon glyphicon-remove"></i>')).insertBefore('#totalRow');
             updateTotals([amount].concat(breakdown));
 
             // Clear the inputs and reset the focus
@@ -113,7 +113,7 @@
             $descriptionInput.focus();
         });
 
-        $('body').on('click', '.icon-remove', function (event) {
+        $('body').on('click', '.delete', function (event) {
             var $removeRow = $(event.target).closest('tr'), removeData = [];
 
             $removeRow.children('td').not(':first').not(':last').each(function (index) {

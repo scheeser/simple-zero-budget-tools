@@ -3,53 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Cash Breakdown</title>
-    <link href="libs/bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="libs/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/cash-breakdown.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="container">
         <form class="form-horizontal">
-            <fieldset>
+           <fieldset>
                 <legend>Cash Breakdown</legend>
-                <div class="control-group">
-                    <label class="control-label" for="description">Description</label>
-                    <div class="controls">
-                        <input type="text" id="description" class="span2" />
-                    </div>
-                </div>
-                <div class="control-group">
-                    <label class="control-label" for="amount">Amount</label>
-                    <div class="controls">
-                        <div class="input-prepend">
-                            <span class="add-on">$</span>
-                            <input type="text" id="amount" class="span1" />
-                        </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label" for="description">Description</label>
+                    <div class="col-md-2">
+                        <input type="text" id="description" class="form-control" />
                     </div>
                 </div>
 
-                <div class="control-group">
-                    <label class="control-label">Exclude</label>
-                    <div class="controls">
-                        <label class="checkbox inline">
+                <div class="form-group">
+                    <label class="col-md-1 control-label" for="amount">Amount</label>
+                    <div class="input-group col-md-2">
+                        <span class="input-group-addon">$</span>
+                        <input type="text" id="amount" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-1 control-label">Exclude</label>
+                    <div class="input-group col-md-11">
+                        <label class="checkbox-inline">
                             <input type="checkbox" class="exclude" value="0">$50
                         </label>
-                        <label class="checkbox inline">
+                        <label class="checkbox-inline">
                             <input type="checkbox" class="exclude" value="1">$20
                         </label>
                     </div>
                 </div>
 
-                <div class="control-group">
-                    <label class="control-label">Split Evently</label>
-                    <div class="controls">
-                        <label class="checkbox">
-                            <input type="checkbox" class="split" value="1" />
-                        </label>
+                <div class="form-group">
+                    <div class="col-md-offset-1 col-md-11">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" class="split" value="1" /> Split Evenly
+                            </label>
+                        </div>
                     </div>
                 </div>
 
-                <div class="control-group">
-                    <div class="controls">
+                <div class="form-group">
+                    <div class="col-md-offset-1 col-md-11">
                         <button type="submit" id="calculate" class="btn btn-primary">Add</button>
                     </div>
                 </div>
