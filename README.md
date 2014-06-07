@@ -11,5 +11,5 @@ Takes a set of cash ammounts and breaks each one down into the denominations of 
 
 Options:
 * Exclude larger denominations if you don't want to carry larger bills
-* Split the ammount entered so the cash recieved can be shared evenly between two people
+* Split the ammount entered so the cash received can be shared evenly between two people
     * $50 would be broken up as 2 x $20 and 2x$5 instead of a single $50 bill
