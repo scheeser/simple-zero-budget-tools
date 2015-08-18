@@ -3,7 +3,9 @@ Tools that make it easier to deal with a zero based cash budget. The intent is t
 
 ## Usage
 [http://scheeser.github.io/simple-zero-budget-tools/](http://scheeser.github.io/simple-zero-budget-tools/)
+
 or
+
 Clone the repository and open up the html file for each tool in your browser.
 
 ## Cash Breakdown
