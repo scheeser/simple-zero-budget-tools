@@ -6,7 +6,7 @@ Tools that make it easier to deal with a zero based cash budget. The intent is t
 
 or
 
-Clone the repository and open up the html file for each tool in your browser.
+Clone the repository and open up the index.html file for each tool in your browser.
 
 ## Cash Breakdown
 Takes a set of cash amounts and breaks each one down into the denominations of US currency that add up to the specified amount. The sum of all number entered will be kept as well as the total count of each denomination. These totals are useful when making withdrawals at the bank for those budget categories that are spent using cash.
